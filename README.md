@@ -1,43 +1,17 @@
-# Astro Starter Kit: Minimal
+# lschneid.com
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Live at [lschneid.com](https://lschneid.com).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A little portfolio website I made to showcase personal projects, university studies and solutions I worked on at my jobs. Since many of my interests are more low-level and I just like the overall aesthetics of TUIs, I figured why not make my website look like one too.
 
-## 🚀 Project Structure
+>[!NOTE]
+>Tbh there isn't much to see yet. Until the website's MVP is ready I just added a little "under construction" teaser.
+>
+><img src=".github/assets/maintenance.gif" alt="under construction teaser" width="500">
 
-Inside of your Astro project, you'll see the following folders and files:
+## License
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+The source code is licensed under the [MIT License](LICENSE).
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The content of the site (texts, images, CV and other personal
+material) is not covered by this license. All rights reserved.
