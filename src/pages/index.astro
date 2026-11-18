@@ -6,11 +6,73 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+    <meta name="description" content="portfolio website showcasing degrees, university projects, jobs and professional experiences and personal passion projects"/> 
+    <meta name="robots" content="noindex"/>
+		<title>lschneid.com: under construction</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+    <main>
+      <h1>lschneid.com</h1>
+      <p><span class="prompt">$</span> status </p>
+      <p class="reply">site under construction come back soon</p>
+      <p>
+        <span class="prompt">$ </span>
+        <span class="cursor" aria-hidden="true">█</span>
+      </p>
+    </main>
 	</body>
 </html>
+
+<style>
+  @keyframes blink {
+  50% { opacity: 0; }
+  }
+
+  h1 {
+    border-bottom: 2px solid var(--tn-comment);
+    font-size: 1em;
+    padding-bottom: 0.5em;
+  }
+
+  .prompt {
+    color: var(--tn-green);
+  }
+  .reply::before {
+    content: "╰ ";
+    color: var(--tn-comment);
+  }
+  .cursor {
+    animation: blink 1s steps(1) infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .cursor{
+      animation: none;
+    }
+  }
+</style>
+
+<style is:global>
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --tn-bg: #1a1b26;
+    --tn-fg: #c0caf5;
+    --tn-green: #9ece6a;
+    --tn-comment: #565f89;
+  }
+  body {
+    background-color: var(--tn-bg);
+    color: var(--tn-fg);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    margin: 0;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding-inline: 2ch;
+  }
+</style>
