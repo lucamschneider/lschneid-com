@@ -12,11 +12,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.12",
-    "astro": "^7.4.13",
-    "typescript": "^6.0.3"
+    "astro": "^7.4.13"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3",
     "wrangler": "^4.164.0"
   }
 }
